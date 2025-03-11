@@ -1,0 +1,41 @@
+.archive-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.archive-header {
+  /* margin-bottom: 1rem; */
+}
+
+.archive-header h1 {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.archive-content {
+  background: rgb(235, 235, 235);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.unarchive-all-btn {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.unarchive-all-btn:hover {
+  background-color: #218838;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+} 
